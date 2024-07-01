@@ -14,6 +14,10 @@ import begin from '../views/begin.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
+    path: '/',
+    redirect: '/begin',
+  },
+  {
     path: '/home',
     name: 'home',
     component: home,
