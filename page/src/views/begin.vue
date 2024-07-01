@@ -30,9 +30,9 @@ router = useRouter(),
         //backInUp是上后入动画的动画名字
         animateCSS(vite.value, 'flipOutX')
         vite.value.style.display = 'block'
-        // setTimeout(() => {
-        //   router.push('/home');
-        // }, timeout);
+        setTimeout(() => {
+          router.push('/home');
+        }, timeout);
       }, timeout * 2)
 
     }
