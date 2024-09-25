@@ -19,5 +19,7 @@ module.exports = defineConfig({
       //   template:'./public/index.html', //注意 index 的路径
       // })
     ]
-  }
+  },
+  publicPath: process.env.NODE_ENV === 'production' ? '/' : '/'
+
 })
