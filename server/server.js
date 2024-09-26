@@ -74,7 +74,9 @@ app.get('/api/province-text/:name', (req, res) => {
     res.status(404).json({ message: '省份文本数据未找到' });
   }
 });
-
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../dist/index.html'));
+});
 // 启动服务器
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);

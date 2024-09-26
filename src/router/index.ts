@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
+import { createRouter, createWebHistory, createWebHashHistory,RouteRecordRaw } from 'vue-router'
 import jin from '../views/jin.vue'
 import yue from '../views/yue.vue'
 import su from '../views/su.vue'
@@ -81,9 +81,12 @@ const routes: Array<RouteRecordRaw> = [
   },
 ]
 
+// const router = createRouter({
+//   history: createWebHistory(process.env.BASE_URL),
+//   routes
+// })
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
+  history: createWebHashHistory(), // 使用 hash 模式
   routes
 })
-
 export default router

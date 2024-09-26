@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkpage"]=self["webpackChunkpage"]||[]).push([[682],{8682:function(e,n,t){t.r(n),t.d(n,{default:function(){return i}});var u=t(6768);const r={class:"item"};function s(e,n,t,s,a,c){return(0,u.uX)(),(0,u.CE)("div",r,[(0,u.RG)(e.$slots,"default")])}var a={},c=t(1241);const f=(0,c.A)(a,[["render",s]]);var i=f}}]);
+//# sourceMappingURL=682.edb53d1e.js.map

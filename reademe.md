@@ -33,7 +33,7 @@
 防抖节流
 节流：mychart.on('click', throttle((params) => {
 监听georoam缩放，
-
+打包后刷新404，路由改为hash模式
 
 node server.js
 npm run serve
